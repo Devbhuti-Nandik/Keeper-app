@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  
+  background: linear-gradient(to right, #000000, #434343);
+  padding: 0 16px;
+  overflow-x: hidden;
+}
+
+header {
+  background: linear-gradient(to right, #00000a, #414345);
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  opacity:2;
+}
+
+header h1 {
+  color: #f5ba13;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color:white;
+  font-weight: bold;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px #f5ba13;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+  color: white;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  background-color: transparent;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px #f5ba13;
+}
+
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  color: white;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #434343;
+  color: #f5ba13;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note button.color-set {
+  position: absolute;
+  left: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-color-pallete{
+  position: absolute;
+  left: 18px;
+  bottom: -18px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+form .color-pallete{
+  position: absolute;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  align-items: center;
+  left: 18px;
+  bottom: -18px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10%;
+  width: 70px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+form.create-note button.close-note{
+  position: absolute;
+  right: 16px;
+  bottom: 108px;
+  color: white;
+  border: none;
+  width: 0px;
+  height: 0px;
+  border-radius: 0%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.MuiPaper-root {
+  border-radius: 5% !important;
+}
+.dialog-title{
+  background-color:#f5ba13;
+  color: black;
+  font-weight: bold !important;
+}
+
+.dialog-content{
+  background-color:#f5ba13;
+  padding-bottom: 25% !important;;
+}
